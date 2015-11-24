@@ -42,3 +42,5 @@ robot.on('lowVoltage', function onLowVoltage(voltage) {
 robot.on('criticalVoltage', function onCriticalVoltage(voltage) {
   console.log('(!!!) Voltage is critical ['+voltage+']')
 });
+
+robot.init();
